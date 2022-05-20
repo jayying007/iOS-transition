@@ -22,6 +22,8 @@
 		685DB41F28378BFE00A98960 /* PushAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB41E28378BFE00A98960 /* PushAnimationController.m */; };
 		685DB42328378D8900A98960 /* MMNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB42228378D8900A98960 /* MMNavigationViewController.m */; };
 		685DB42628378FAF00A98960 /* UIViewController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB42528378FAF00A98960 /* UIViewController+Transition.m */; };
+		685DB4292837982B00A98960 /* PopAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB4282837982B00A98960 /* PopAnimationController.m */; };
+		685DB42C2837A88900A98960 /* InteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB42B2837A88900A98960 /* InteractionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,10 @@
 		685DB42228378D8900A98960 /* MMNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMNavigationViewController.m; sourceTree = "<group>"; };
 		685DB42428378FAF00A98960 /* UIViewController+Transition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Transition.h"; sourceTree = "<group>"; };
 		685DB42528378FAF00A98960 /* UIViewController+Transition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Transition.m"; sourceTree = "<group>"; };
+		685DB4272837982B00A98960 /* PopAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopAnimationController.h; sourceTree = "<group>"; };
+		685DB4282837982B00A98960 /* PopAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopAnimationController.m; sourceTree = "<group>"; };
+		685DB42A2837A88900A98960 /* InteractionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractionController.h; sourceTree = "<group>"; };
+		685DB42B2837A88900A98960 /* InteractionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,10 @@
 			children = (
 				685DB41D28378BFE00A98960 /* PushAnimationController.h */,
 				685DB41E28378BFE00A98960 /* PushAnimationController.m */,
+				685DB4272837982B00A98960 /* PopAnimationController.h */,
+				685DB4282837982B00A98960 /* PopAnimationController.m */,
+				685DB42A2837A88900A98960 /* InteractionController.h */,
+				685DB42B2837A88900A98960 /* InteractionController.m */,
 			);
 			path = Transition;
 			sourceTree = "<group>";
@@ -277,8 +287,10 @@
 				685DB4002837845000A98960 /* AppDelegate.m in Sources */,
 				685DB4112837845100A98960 /* main.m in Sources */,
 				685DB41C283787D300A98960 /* ImgFullScreenViewController.m in Sources */,
+				685DB42C2837A88900A98960 /* InteractionController.m in Sources */,
 				685DB42328378D8900A98960 /* MMNavigationViewController.m in Sources */,
 				685DB41F28378BFE00A98960 /* PushAnimationController.m in Sources */,
+				685DB4292837982B00A98960 /* PopAnimationController.m in Sources */,
 				685DB42628378FAF00A98960 /* UIViewController+Transition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
