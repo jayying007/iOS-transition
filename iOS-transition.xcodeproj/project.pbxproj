@@ -8,29 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		3F37FD8C28368B5C0088FB3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FD8B28368B5C0088FB3D /* AppDelegate.m */; };
-		3F37FD9228368B5C0088FB3D /* AlbumCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FD9128368B5C0088FB3D /* AlbumCoverViewController.m */; };
+		3F37FD9228368B5C0088FB3D /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FD9128368B5C0088FB3D /* AlbumViewController.m */; };
 		3F37FD9728368B5D0088FB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F37FD9628368B5D0088FB3D /* Assets.xcassets */; };
 		3F37FD9A28368B5D0088FB3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F37FD9828368B5D0088FB3D /* LaunchScreen.storyboard */; };
 		3F37FD9D28368B5D0088FB3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FD9C28368B5D0088FB3D /* main.m */; };
 		3F37FDA3283695250088FB3D /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FDA2283695250088FB3D /* GalleryViewController.m */; };
+		685DB4002837845000A98960 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB3FF2837845000A98960 /* AppDelegate.m */; };
+		685DB40B2837845100A98960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685DB40A2837845100A98960 /* Assets.xcassets */; };
+		685DB40E2837845100A98960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685DB40C2837845100A98960 /* LaunchScreen.storyboard */; };
+		685DB4112837845100A98960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB4102837845100A98960 /* main.m */; };
+		685DB4182837850E00A98960 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB4172837850E00A98960 /* AlbumViewController.m */; };
+		685DB41C283787D300A98960 /* ImgFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB41B283787D300A98960 /* ImgFullScreenViewController.m */; };
+		685DB41F28378BFE00A98960 /* PushAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB41E28378BFE00A98960 /* PushAnimationController.m */; };
+		685DB42328378D8900A98960 /* MMNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB42228378D8900A98960 /* MMNavigationViewController.m */; };
+		685DB42628378FAF00A98960 /* UIViewController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB42528378FAF00A98960 /* UIViewController+Transition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F37FD8828368B5C0088FB3D /* Album_StyleA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Album_StyleA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F37FD8A28368B5C0088FB3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F37FD8B28368B5C0088FB3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F37FD9028368B5C0088FB3D /* AlbumCoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumCoverViewController.h; sourceTree = "<group>"; };
-		3F37FD9128368B5C0088FB3D /* AlbumCoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumCoverViewController.m; sourceTree = "<group>"; };
+		3F37FD9028368B5C0088FB3D /* AlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		3F37FD9128368B5C0088FB3D /* AlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
 		3F37FD9628368B5D0088FB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F37FD9928368B5D0088FB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F37FD9B28368B5D0088FB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F37FD9C28368B5D0088FB3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F37FDA1283695250088FB3D /* GalleryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
 		3F37FDA2283695250088FB3D /* GalleryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		685DB3FC2837845000A98960 /* Album_StyleB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Album_StyleB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685DB3FE2837845000A98960 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		685DB3FF2837845000A98960 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		685DB40A2837845100A98960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		685DB40D2837845100A98960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		685DB40F2837845100A98960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685DB4102837845100A98960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		685DB4162837850E00A98960 /* AlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		685DB4172837850E00A98960 /* AlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		685DB41A283787D300A98960 /* ImgFullScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImgFullScreenViewController.h; sourceTree = "<group>"; };
+		685DB41B283787D300A98960 /* ImgFullScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImgFullScreenViewController.m; sourceTree = "<group>"; };
+		685DB41D28378BFE00A98960 /* PushAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushAnimationController.h; sourceTree = "<group>"; };
+		685DB41E28378BFE00A98960 /* PushAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushAnimationController.m; sourceTree = "<group>"; };
+		685DB42128378D8900A98960 /* MMNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMNavigationViewController.h; sourceTree = "<group>"; };
+		685DB42228378D8900A98960 /* MMNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMNavigationViewController.m; sourceTree = "<group>"; };
+		685DB42428378FAF00A98960 /* UIViewController+Transition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Transition.h"; sourceTree = "<group>"; };
+		685DB42528378FAF00A98960 /* UIViewController+Transition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Transition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3F37FD8528368B5C0088FB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685DB3F92837845000A98960 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				3F37FD8928368B5C0088FB3D /* Album_StyleA */,
+				685DB3FD2837845000A98960 /* Album_StyleB */,
 				3F37FD6828368A3A0088FB3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				3F37FD8828368B5C0088FB3D /* Album_StyleA.app */,
+				685DB3FC2837845000A98960 /* Album_StyleB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,8 +96,8 @@
 			children = (
 				3F37FDA42836952B0088FB3D /* Other */,
 				3F37FD9B28368B5D0088FB3D /* Info.plist */,
-				3F37FD9028368B5C0088FB3D /* AlbumCoverViewController.h */,
-				3F37FD9128368B5C0088FB3D /* AlbumCoverViewController.m */,
+				3F37FD9028368B5C0088FB3D /* AlbumViewController.h */,
+				3F37FD9128368B5C0088FB3D /* AlbumViewController.m */,
 				3F37FDA1283695250088FB3D /* GalleryViewController.h */,
 				3F37FDA2283695250088FB3D /* GalleryViewController.m */,
 			);
@@ -79,6 +114,53 @@
 				3F37FD9628368B5D0088FB3D /* Assets.xcassets */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		685DB3FD2837845000A98960 /* Album_StyleB */ = {
+			isa = PBXGroup;
+			children = (
+				685DB42028378D7200A98960 /* Base */,
+				685DB4192837878200A98960 /* Transition */,
+				685DB4152837845C00A98960 /* Other */,
+				685DB40F2837845100A98960 /* Info.plist */,
+				685DB4162837850E00A98960 /* AlbumViewController.h */,
+				685DB4172837850E00A98960 /* AlbumViewController.m */,
+				685DB41A283787D300A98960 /* ImgFullScreenViewController.h */,
+				685DB41B283787D300A98960 /* ImgFullScreenViewController.m */,
+			);
+			path = Album_StyleB;
+			sourceTree = "<group>";
+		};
+		685DB4152837845C00A98960 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				685DB3FE2837845000A98960 /* AppDelegate.h */,
+				685DB3FF2837845000A98960 /* AppDelegate.m */,
+				685DB4102837845100A98960 /* main.m */,
+				685DB40C2837845100A98960 /* LaunchScreen.storyboard */,
+				685DB40A2837845100A98960 /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		685DB4192837878200A98960 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				685DB41D28378BFE00A98960 /* PushAnimationController.h */,
+				685DB41E28378BFE00A98960 /* PushAnimationController.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		685DB42028378D7200A98960 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				685DB42128378D8900A98960 /* MMNavigationViewController.h */,
+				685DB42228378D8900A98960 /* MMNavigationViewController.m */,
+				685DB42428378FAF00A98960 /* UIViewController+Transition.h */,
+				685DB42528378FAF00A98960 /* UIViewController+Transition.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,6 +183,23 @@
 			productReference = 3F37FD8828368B5C0088FB3D /* Album_StyleA.app */;
 			productType = "com.apple.product-type.application";
 		};
+		685DB3FB2837845000A98960 /* Album_StyleB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685DB4142837845100A98960 /* Build configuration list for PBXNativeTarget "Album_StyleB" */;
+			buildPhases = (
+				685DB3F82837845000A98960 /* Sources */,
+				685DB3F92837845000A98960 /* Frameworks */,
+				685DB3FA2837845000A98960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Album_StyleB;
+			productName = Album_StyleB;
+			productReference = 685DB3FC2837845000A98960 /* Album_StyleB.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -112,6 +211,9 @@
 				TargetAttributes = {
 					3F37FD8728368B5C0088FB3D = {
 						CreatedOnToolsVersion = 13.3.1;
+					};
+					685DB3FB2837845000A98960 = {
+						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
@@ -129,6 +231,7 @@
 			projectRoot = "";
 			targets = (
 				3F37FD8728368B5C0088FB3D /* Album_StyleA */,
+				685DB3FB2837845000A98960 /* Album_StyleB */,
 			);
 		};
 /* End PBXProject section */
@@ -143,6 +246,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		685DB3FA2837845000A98960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685DB40E2837845100A98960 /* LaunchScreen.storyboard in Resources */,
+				685DB40B2837845100A98960 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -150,10 +262,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F37FD9228368B5C0088FB3D /* AlbumCoverViewController.m in Sources */,
+				3F37FD9228368B5C0088FB3D /* AlbumViewController.m in Sources */,
 				3F37FDA3283695250088FB3D /* GalleryViewController.m in Sources */,
 				3F37FD8C28368B5C0088FB3D /* AppDelegate.m in Sources */,
 				3F37FD9D28368B5D0088FB3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685DB3F82837845000A98960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685DB4182837850E00A98960 /* AlbumViewController.m in Sources */,
+				685DB4002837845000A98960 /* AppDelegate.m in Sources */,
+				685DB4112837845100A98960 /* main.m in Sources */,
+				685DB41C283787D300A98960 /* ImgFullScreenViewController.m in Sources */,
+				685DB42328378D8900A98960 /* MMNavigationViewController.m in Sources */,
+				685DB41F28378BFE00A98960 /* PushAnimationController.m in Sources */,
+				685DB42628378FAF00A98960 /* UIViewController+Transition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +290,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				3F37FD9928368B5D0088FB3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		685DB40C2837845100A98960 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685DB40D2837845100A98960 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -333,6 +467,58 @@
 			};
 			name = Release;
 		};
+		685DB4122837845100A98960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86JSFRSCH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Album_StyleB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jane.Album-StyleB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		685DB4132837845100A98960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86JSFRSCH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Album_StyleB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jane.Album-StyleB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -350,6 +536,15 @@
 			buildConfigurations = (
 				3F37FD9F28368B5D0088FB3D /* Debug */,
 				3F37FDA028368B5D0088FB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685DB4142837845100A98960 /* Build configuration list for PBXNativeTarget "Album_StyleB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685DB4122837845100A98960 /* Debug */,
+				685DB4132837845100A98960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

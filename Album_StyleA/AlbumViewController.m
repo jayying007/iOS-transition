@@ -5,13 +5,13 @@
 //  Created by janezhuang on 2022/5/19.
 //
 
-#import "AlbumCoverViewController.h"
+#import "AlbumViewController.h"
 
-@interface AlbumCoverViewController ()
+@interface AlbumViewController ()
 @property (nonatomic) NSArray *imageNames;
 @end
 
-@implementation AlbumCoverViewController
+@implementation AlbumViewController
 
 static NSString * const reuseIdentifier = @"Cell";
 

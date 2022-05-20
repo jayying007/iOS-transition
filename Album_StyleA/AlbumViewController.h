@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AlbumCoverViewController : UICollectionViewController
+@interface AlbumViewController : UICollectionViewController
 @property (nonatomic) uint32_t type;
 @end
 

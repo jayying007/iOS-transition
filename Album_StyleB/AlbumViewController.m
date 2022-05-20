@@ -1,28 +1,28 @@
 //
-//  GalleryViewController.m
-//  Album_StyleA
+//  AlbumViewController.m
+//  Album_StyleB
 //
-//  Created by janezhuang on 2022/5/19.
+//  Created by janezhuang on 2022/5/20.
 //
 
-#import "GalleryViewController.h"
 #import "AlbumViewController.h"
+#import "ImgFullScreenViewController.h"
+#import "UIViewController+Transition.h"
 
-@interface GalleryViewController ()
-@property (nonatomic) NSArray *coverNames;
+@interface AlbumViewController ()
+@property (nonatomic) NSArray *imageNames;
 @end
 
-@implementation GalleryViewController
+@implementation AlbumViewController
 
 static NSString * const reuseIdentifier = @"Cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"Bleach";
-
+    
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
-    self.coverNames = @[@"other", @"main", @"boss"];
+    self.imageNames = @[@"s_2", @"s_3", @"s_4", @"s_5", @"s_7", @"s_8", @"s_9", @"s_11", @"s_13", @"x_1", @"x_3", @"x_6", @"x_7", @"x_9", @"x_10", @"x_12"];
 }
 
 #pragma mark - UICollectionViewDataSource
@@ -31,13 +31,13 @@ static NSString * const reuseIdentifier = @"Cell";
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return self.coverNames.count;
+    return self.imageNames.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     
-    UIImage *image = [UIImage imageNamed:self.coverNames[indexPath.item]];
+    UIImage *image = [UIImage imageNamed:self.imageNames[indexPath.item]];
     UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
     imageView.frame = cell.bounds;
     imageView.contentMode = UIViewContentModeScaleAspectFit;
@@ -47,17 +47,14 @@ static NSString * const reuseIdentifier = @"Cell";
     
     return cell;
 }
-#pragma mark -
-- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
-    return UIEdgeInsetsMake(48, 24, 0, 24);
-}
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
-    flowLayout.minimumLineSpacing = 32;
+    ImgFullScreenViewController *vc = [[ImgFullScreenViewController alloc] initWithImage:self.imageNames[indexPath.row]];
+    vc.snapshotImage = [UIImage imageNamed:self.imageNames[indexPath.row]];
     
-    AlbumViewController *vc = [[AlbumViewController alloc] initWithCollectionViewLayout:flowLayout];
-    vc.type = indexPath.item + 1;
+    UICollectionViewCell *cell = [self collectionView:collectionView cellForItemAtIndexPath:indexPath];
+    vc.snapshotFrame = [cell convertRect:cell.frame toView:nil];
+    
     [self.navigationController pushViewController:vc animated:YES];
 }
 @end
