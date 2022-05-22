@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  FloatWindow
+//
+//  Created by janezhuang on 2022/5/22.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+#import "UIView+Frame.h"
+#import "UIViewController+Minimize.h"
+#import "FloatWindowMgr.h"
+#import "TransitionMgr.h"
+
+#define Service(CLASS) [CLASS sharedInstance]
+#define WINDOW [UIApplication sharedApplication].delegate.window
+
+#define weakify(VAR) __weak typeof(VAR) _weak_ = VAR;
+#define strongify(VAR) __strong typeof(VAR) VAR = _weak_;
+
+static NSString * const kGestureChangePercent = @"kGestureChangePercent";
+static NSString * const kGestureChangeTouchPoint = @"kGestureChangeTouchPoint";
+static NSString * const kFinishInteraction = @"kFinishInteraction";
+static NSString * const kGestureEnd = @"kGestureEnd";
