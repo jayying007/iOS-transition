@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MMNavigationController.h"
 #import "GalleryViewController.h"
 
 @interface AppDelegate ()
@@ -22,7 +23,7 @@
     flowLayout.minimumLineSpacing = 40;
     GalleryViewController *vc = [[GalleryViewController alloc] initWithCollectionViewLayout:flowLayout];
     
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = [[MMNavigationController alloc] initWithRootViewController:vc];
     [self.window makeKeyAndVisible];
     
     return YES;

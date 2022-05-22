@@ -22,12 +22,16 @@
 		3F0B8396283923A300BB4B79 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B8395283923A300BB4B79 /* PopAnimation.m */; };
 		3F0B839D2839442E00BB4B79 /* TransitionMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B839C2839442E00BB4B79 /* TransitionMgr.m */; };
 		3F0B83A128394F1000BB4B79 /* UIViewController+Minimize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B83A028394F1000BB4B79 /* UIViewController+Minimize.m */; };
+		3F0B83F12839D24200BB4B79 /* TransitionMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B83F02839D24200BB4B79 /* TransitionMgr.m */; };
+		3F0B83F52839E91A00BB4B79 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B83F42839E91A00BB4B79 /* UIView+Frame.m */; };
 		3F37FD8C28368B5C0088FB3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FD8B28368B5C0088FB3D /* AppDelegate.m */; };
 		3F37FD9228368B5C0088FB3D /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FD9128368B5C0088FB3D /* AlbumViewController.m */; };
 		3F37FD9728368B5D0088FB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F37FD9628368B5D0088FB3D /* Assets.xcassets */; };
 		3F37FD9A28368B5D0088FB3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F37FD9828368B5D0088FB3D /* LaunchScreen.storyboard */; };
 		3F37FD9D28368B5D0088FB3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FD9C28368B5D0088FB3D /* main.m */; };
 		3F37FDA3283695250088FB3D /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FDA2283695250088FB3D /* GalleryViewController.m */; };
+		3F37FDA82836A1DA0088FB3D /* MMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FDA72836A1DA0088FB3D /* MMNavigationController.m */; };
+		3F37FDAC2836A2DB0088FB3D /* PushAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FDAB2836A2DB0088FB3D /* PushAnimationController.m */; };
 		685DB4002837845000A98960 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB3FF2837845000A98960 /* AppDelegate.m */; };
 		685DB40B2837845100A98960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685DB40A2837845100A98960 /* Assets.xcassets */; };
 		685DB40E2837845100A98960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685DB40C2837845100A98960 /* LaunchScreen.storyboard */; };
@@ -71,6 +75,10 @@
 		3F0B839E2839447600BB4B79 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3F0B839F28394F1000BB4B79 /* UIViewController+Minimize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Minimize.h"; sourceTree = "<group>"; };
 		3F0B83A028394F1000BB4B79 /* UIViewController+Minimize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Minimize.m"; sourceTree = "<group>"; };
+		3F0B83EF2839D24200BB4B79 /* TransitionMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionMgr.h; sourceTree = "<group>"; };
+		3F0B83F02839D24200BB4B79 /* TransitionMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionMgr.m; sourceTree = "<group>"; };
+		3F0B83F32839E91A00BB4B79 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		3F0B83F42839E91A00BB4B79 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		3F37FD8828368B5C0088FB3D /* Album_StyleA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Album_StyleA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F37FD8A28368B5C0088FB3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F37FD8B28368B5C0088FB3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,6 +90,10 @@
 		3F37FD9C28368B5D0088FB3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F37FDA1283695250088FB3D /* GalleryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
 		3F37FDA2283695250088FB3D /* GalleryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		3F37FDA62836A1DA0088FB3D /* MMNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMNavigationController.h; sourceTree = "<group>"; };
+		3F37FDA72836A1DA0088FB3D /* MMNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMNavigationController.m; sourceTree = "<group>"; };
+		3F37FDAA2836A2DB0088FB3D /* PushAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushAnimationController.h; sourceTree = "<group>"; };
+		3F37FDAB2836A2DB0088FB3D /* PushAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushAnimationController.m; sourceTree = "<group>"; };
 		685DB3FC2837845000A98960 /* Album_StyleB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Album_StyleB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		685DB3FE2837845000A98960 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		685DB3FF2837845000A98960 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -205,6 +217,17 @@
 			path = Float;
 			sourceTree = "<group>";
 		};
+		3F0B83F22839E80A00BB4B79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F37FD9028368B5C0088FB3D /* AlbumViewController.h */,
+				3F37FD9128368B5C0088FB3D /* AlbumViewController.m */,
+				3F37FDA1283695250088FB3D /* GalleryViewController.h */,
+				3F37FDA2283695250088FB3D /* GalleryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3F37FD5E28368A3A0088FB3D = {
 			isa = PBXGroup;
 			children = (
@@ -229,12 +252,13 @@
 		3F37FD8928368B5C0088FB3D /* Album_StyleA */ = {
 			isa = PBXGroup;
 			children = (
+				3F0B83F22839E80A00BB4B79 /* Controller */,
+				3F37FDA92836A2BA0088FB3D /* Transition */,
+				3F37FDA52836A1BA0088FB3D /* Base */,
 				3F37FDA42836952B0088FB3D /* Other */,
 				3F37FD9B28368B5D0088FB3D /* Info.plist */,
-				3F37FD9028368B5C0088FB3D /* AlbumViewController.h */,
-				3F37FD9128368B5C0088FB3D /* AlbumViewController.m */,
-				3F37FDA1283695250088FB3D /* GalleryViewController.h */,
-				3F37FDA2283695250088FB3D /* GalleryViewController.m */,
+				3F0B83F32839E91A00BB4B79 /* UIView+Frame.h */,
+				3F0B83F42839E91A00BB4B79 /* UIView+Frame.m */,
 			);
 			path = Album_StyleA;
 			sourceTree = "<group>";
@@ -249,6 +273,26 @@
 				3F37FD9628368B5D0088FB3D /* Assets.xcassets */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		3F37FDA52836A1BA0088FB3D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3F37FDA62836A1DA0088FB3D /* MMNavigationController.h */,
+				3F37FDA72836A1DA0088FB3D /* MMNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3F37FDA92836A2BA0088FB3D /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				3F37FDAA2836A2DB0088FB3D /* PushAnimationController.h */,
+				3F37FDAB2836A2DB0088FB3D /* PushAnimationController.m */,
+				3F0B83EF2839D24200BB4B79 /* TransitionMgr.h */,
+				3F0B83F02839D24200BB4B79 /* TransitionMgr.m */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 		685DB3FD2837845000A98960 /* Album_StyleB */ = {
@@ -451,6 +495,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F37FD9228368B5C0088FB3D /* AlbumViewController.m in Sources */,
+				3F37FDAC2836A2DB0088FB3D /* PushAnimationController.m in Sources */,
+				3F37FD9228368B5C0088FB3D /* AlbumViewController.m in Sources */,
+				3F0B83F52839E91A00BB4B79 /* UIView+Frame.m in Sources */,
+				3F0B83F12839D24200BB4B79 /* TransitionMgr.m in Sources */,
+				3F37FDA82836A1DA0088FB3D /* MMNavigationController.m in Sources */,
 				3F37FDA3283695250088FB3D /* GalleryViewController.m in Sources */,
 				3F37FD8C28368B5C0088FB3D /* AppDelegate.m in Sources */,
 				3F37FD9D28368B5D0088FB3D /* main.m in Sources */,
