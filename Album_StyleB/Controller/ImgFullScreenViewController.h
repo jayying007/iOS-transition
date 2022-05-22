@@ -7,10 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface ImgFullScreenViewController : UIViewController
 - (instancetype)initWithImage:(NSString *)imageName;
+@property (nonatomic) NSIndexPath *indexPath;
 @end
-
-NS_ASSUME_NONNULL_END

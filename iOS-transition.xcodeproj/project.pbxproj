@@ -24,6 +24,9 @@
 		3F0B83A128394F1000BB4B79 /* UIViewController+Minimize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B83A028394F1000BB4B79 /* UIViewController+Minimize.m */; };
 		3F0B83F12839D24200BB4B79 /* TransitionMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B83F02839D24200BB4B79 /* TransitionMgr.m */; };
 		3F0B83F52839E91A00BB4B79 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B83F42839E91A00BB4B79 /* UIView+Frame.m */; };
+		3F0B83FB283A2CD100BB4B79 /* TransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B83FA283A2CD100BB4B79 /* TransitionController.m */; };
+		3F0B83FF283A303C00BB4B79 /* AssetTransitionDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B83FE283A303C00BB4B79 /* AssetTransitionDriver.m */; };
+		3F0B8403283A554C00BB4B79 /* AssetTransitionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B8402283A554C00BB4B79 /* AssetTransitionItem.m */; };
 		3F37FD8C28368B5C0088FB3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FD8B28368B5C0088FB3D /* AppDelegate.m */; };
 		3F37FD9228368B5C0088FB3D /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FD9128368B5C0088FB3D /* AlbumViewController.m */; };
 		3F37FD9728368B5D0088FB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F37FD9628368B5D0088FB3D /* Assets.xcassets */; };
@@ -36,13 +39,9 @@
 		685DB40B2837845100A98960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685DB40A2837845100A98960 /* Assets.xcassets */; };
 		685DB40E2837845100A98960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685DB40C2837845100A98960 /* LaunchScreen.storyboard */; };
 		685DB4112837845100A98960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB4102837845100A98960 /* main.m */; };
-		685DB4182837850E00A98960 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB4172837850E00A98960 /* AlbumViewController.m */; };
+		685DB4182837850E00A98960 /* AlbumViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 685DB4172837850E00A98960 /* AlbumViewController.mm */; };
 		685DB41C283787D300A98960 /* ImgFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB41B283787D300A98960 /* ImgFullScreenViewController.m */; };
-		685DB41F28378BFE00A98960 /* PushAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB41E28378BFE00A98960 /* PushAnimationController.m */; };
 		685DB42328378D8900A98960 /* MMNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB42228378D8900A98960 /* MMNavigationViewController.m */; };
-		685DB42628378FAF00A98960 /* UIViewController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB42528378FAF00A98960 /* UIViewController+Transition.m */; };
-		685DB4292837982B00A98960 /* PopAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB4282837982B00A98960 /* PopAnimationController.m */; };
-		685DB42C2837A88900A98960 /* InteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DB42B2837A88900A98960 /* InteractionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +78,13 @@
 		3F0B83F02839D24200BB4B79 /* TransitionMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionMgr.m; sourceTree = "<group>"; };
 		3F0B83F32839E91A00BB4B79 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		3F0B83F42839E91A00BB4B79 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		3F0B83F9283A2CD100BB4B79 /* TransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionController.h; sourceTree = "<group>"; };
+		3F0B83FA283A2CD100BB4B79 /* TransitionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionController.m; sourceTree = "<group>"; };
+		3F0B83FD283A303C00BB4B79 /* AssetTransitionDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetTransitionDriver.h; sourceTree = "<group>"; };
+		3F0B83FE283A303C00BB4B79 /* AssetTransitionDriver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetTransitionDriver.m; sourceTree = "<group>"; };
+		3F0B8400283A350D00BB4B79 /* AssetTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetTransitioning.h; sourceTree = "<group>"; };
+		3F0B8401283A554C00BB4B79 /* AssetTransitionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetTransitionItem.h; sourceTree = "<group>"; };
+		3F0B8402283A554C00BB4B79 /* AssetTransitionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetTransitionItem.m; sourceTree = "<group>"; };
 		3F37FD8828368B5C0088FB3D /* Album_StyleA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Album_StyleA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F37FD8A28368B5C0088FB3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F37FD8B28368B5C0088FB3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,19 +108,11 @@
 		685DB40F2837845100A98960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		685DB4102837845100A98960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		685DB4162837850E00A98960 /* AlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
-		685DB4172837850E00A98960 /* AlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		685DB4172837850E00A98960 /* AlbumViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AlbumViewController.mm; sourceTree = "<group>"; };
 		685DB41A283787D300A98960 /* ImgFullScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImgFullScreenViewController.h; sourceTree = "<group>"; };
 		685DB41B283787D300A98960 /* ImgFullScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImgFullScreenViewController.m; sourceTree = "<group>"; };
-		685DB41D28378BFE00A98960 /* PushAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushAnimationController.h; sourceTree = "<group>"; };
-		685DB41E28378BFE00A98960 /* PushAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushAnimationController.m; sourceTree = "<group>"; };
 		685DB42128378D8900A98960 /* MMNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMNavigationViewController.h; sourceTree = "<group>"; };
 		685DB42228378D8900A98960 /* MMNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMNavigationViewController.m; sourceTree = "<group>"; };
-		685DB42428378FAF00A98960 /* UIViewController+Transition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Transition.h"; sourceTree = "<group>"; };
-		685DB42528378FAF00A98960 /* UIViewController+Transition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Transition.m"; sourceTree = "<group>"; };
-		685DB4272837982B00A98960 /* PopAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopAnimationController.h; sourceTree = "<group>"; };
-		685DB4282837982B00A98960 /* PopAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopAnimationController.m; sourceTree = "<group>"; };
-		685DB42A2837A88900A98960 /* InteractionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractionController.h; sourceTree = "<group>"; };
-		685DB42B2837A88900A98960 /* InteractionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +226,17 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		3F0B83FC283A2D9700BB4B79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				685DB4162837850E00A98960 /* AlbumViewController.h */,
+				685DB4172837850E00A98960 /* AlbumViewController.mm */,
+				685DB41A283787D300A98960 /* ImgFullScreenViewController.h */,
+				685DB41B283787D300A98960 /* ImgFullScreenViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3F37FD5E28368A3A0088FB3D = {
 			isa = PBXGroup;
 			children = (
@@ -298,14 +307,11 @@
 		685DB3FD2837845000A98960 /* Album_StyleB */ = {
 			isa = PBXGroup;
 			children = (
+				3F0B83FC283A2D9700BB4B79 /* Controller */,
 				685DB42028378D7200A98960 /* Base */,
 				685DB4192837878200A98960 /* Transition */,
 				685DB4152837845C00A98960 /* Other */,
 				685DB40F2837845100A98960 /* Info.plist */,
-				685DB4162837850E00A98960 /* AlbumViewController.h */,
-				685DB4172837850E00A98960 /* AlbumViewController.m */,
-				685DB41A283787D300A98960 /* ImgFullScreenViewController.h */,
-				685DB41B283787D300A98960 /* ImgFullScreenViewController.m */,
 			);
 			path = Album_StyleB;
 			sourceTree = "<group>";
@@ -325,12 +331,13 @@
 		685DB4192837878200A98960 /* Transition */ = {
 			isa = PBXGroup;
 			children = (
-				685DB41D28378BFE00A98960 /* PushAnimationController.h */,
-				685DB41E28378BFE00A98960 /* PushAnimationController.m */,
-				685DB4272837982B00A98960 /* PopAnimationController.h */,
-				685DB4282837982B00A98960 /* PopAnimationController.m */,
-				685DB42A2837A88900A98960 /* InteractionController.h */,
-				685DB42B2837A88900A98960 /* InteractionController.m */,
+				3F0B83FD283A303C00BB4B79 /* AssetTransitionDriver.h */,
+				3F0B83FE283A303C00BB4B79 /* AssetTransitionDriver.m */,
+				3F0B83F9283A2CD100BB4B79 /* TransitionController.h */,
+				3F0B83FA283A2CD100BB4B79 /* TransitionController.m */,
+				3F0B8400283A350D00BB4B79 /* AssetTransitioning.h */,
+				3F0B8401283A554C00BB4B79 /* AssetTransitionItem.h */,
+				3F0B8402283A554C00BB4B79 /* AssetTransitionItem.m */,
 			);
 			path = Transition;
 			sourceTree = "<group>";
@@ -340,8 +347,6 @@
 			children = (
 				685DB42128378D8900A98960 /* MMNavigationViewController.h */,
 				685DB42228378D8900A98960 /* MMNavigationViewController.m */,
-				685DB42428378FAF00A98960 /* UIViewController+Transition.h */,
-				685DB42528378FAF00A98960 /* UIViewController+Transition.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -510,15 +515,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				685DB4182837850E00A98960 /* AlbumViewController.m in Sources */,
+				3F0B83FF283A303C00BB4B79 /* AssetTransitionDriver.m in Sources */,
+				685DB4182837850E00A98960 /* AlbumViewController.mm in Sources */,
+				3F0B8403283A554C00BB4B79 /* AssetTransitionItem.m in Sources */,
 				685DB4002837845000A98960 /* AppDelegate.m in Sources */,
 				685DB4112837845100A98960 /* main.m in Sources */,
 				685DB41C283787D300A98960 /* ImgFullScreenViewController.m in Sources */,
-				685DB42C2837A88900A98960 /* InteractionController.m in Sources */,
 				685DB42328378D8900A98960 /* MMNavigationViewController.m in Sources */,
-				685DB41F28378BFE00A98960 /* PushAnimationController.m in Sources */,
-				685DB4292837982B00A98960 /* PopAnimationController.m in Sources */,
-				685DB42628378FAF00A98960 /* UIViewController+Transition.m in Sources */,
+				3F0B83FB283A2CD100BB4B79 /* TransitionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
