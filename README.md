@@ -14,3 +14,8 @@
 很简单的实现
 
 ![](Resource/3.gif)
+
+遮罩：
+以原始View的位置为遮罩，逐渐拉开新的View。 注意不是由缩小到恢复正常哦。
+
+![](Resource/Mask.gif)

@@ -8,12 +8,13 @@
 #import "AssetTransitionDriver.h"
 #import "AssetTransitioning.h"
 
+#define CGVectorZero CGVectorMake(0, 0)
+
 @interface AssetTransitionDriver ()
 @property (nonatomic) id<UIViewControllerContextTransitioning> transitionContext;
 @property (nonatomic) UINavigationControllerOperation operation;
 @property (nonatomic) UIPanGestureRecognizer *panGesture;
 @property (nonatomic) NSArray<AssetTransitionItem *> *items;
-@property (nonatomic) AssetTransitionItem *interactiveItem;
 @property (nonatomic) UIViewPropertyAnimator *itemFrameAnimator;
 @end
 
@@ -123,7 +124,6 @@
 - (void)updateInteractiveItem:(CGPoint)locationInContainer {
     AssetTransitionItem *item = [self itemAtPoint:locationInContainer];
     item.touchOffset = CGPointMake(locationInContainer.x - item.imageView.center.x, locationInContainer.y - item.imageView.center.y);
-    self.interactiveItem = item;
 }
 
 - (CGFloat)progressStep:(CGPoint)translation {
@@ -218,7 +218,7 @@
 }
 
 - (void)animate:(UIViewAnimatingPosition)position {
-    UIViewPropertyAnimator *itemFrameAnimator = [AssetTransitionDriver propertyAnimator:[self timingCurveVelocity]];
+    UIViewPropertyAnimator *itemFrameAnimator = [AssetTransitionDriver propertyAnimator:CGVectorZero];
     [itemFrameAnimator addAnimations:^{
         for (AssetTransitionItem *item in self.items) {
             item.imageView.frame = (position == UIViewAnimatingPositionEnd) ? item.targetFrame : item.initialFrame;
@@ -244,18 +244,13 @@
     CGFloat dx = fabs(CGRectGetMidX(targetFrame) - CGRectGetMidX(currentFrame));
     CGFloat dy = fabs(CGRectGetMidY(targetFrame) - CGRectGetMidY(currentFrame));
     if (dx == 0 || dy == 0) {
-        return CGVectorMake(0, 0);
+        return CGVectorZero;
     }
     
     CGFloat range = 35;
     CGFloat clippedVx = MAX(-range, MIN(range, velocity.x / dx));
     CGFloat clippedVy = MAX(-range, MIN(range, velocity.y / dy));
     return CGVectorMake(clippedVx, clippedVy);
-}
-
-- (CGVector)timingCurveVelocity {
-    CGPoint velocity = [self.panGesture velocityInView:self.transitionContext.containerView];
-    return [self convertVelocity:velocity forItem:self.interactiveItem];
 }
 
 + (NSTimeInterval)animationDuration {
